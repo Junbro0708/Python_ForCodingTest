@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */; };
+		32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */; };
+		32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		32FFA4A428FD1BC600CC3869 /* ForCodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForCodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 001_RomantoInteger.cpp; sourceTree = "<group>"; };
+		32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 002_LongestCommonPrefix.cpp; sourceTree = "<group>"; };
+		32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 000_Init.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		32FFA4A628FD1BC600CC3869 /* ForCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */,
 				32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */,
+				32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */,
 			);
 			path = ForCodingTest;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */,
+				32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */,
 				32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
