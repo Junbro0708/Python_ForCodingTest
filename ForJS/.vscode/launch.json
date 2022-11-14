@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/004_Two_Sum.js"
+      "program": "${workspaceFolder}/005_Palindrome_Number.js"
     }
   ]
 }
