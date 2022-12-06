@@ -13,4 +13,4 @@ var isPalindrome = function(x) {
     }
   }
 };
-console.log(isPalindrome(121))
+console.log(isPalindrome(1000021))
