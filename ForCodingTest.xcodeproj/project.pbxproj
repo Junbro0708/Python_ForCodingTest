@@ -10,6 +10,9 @@
 		3223836429A48DD800A5A0F5 /* 003_BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3223836329A48DD800A5A0F5 /* 003_BFS.cpp */; };
 		3223836629A4949B00A5A0F5 /* 004_BFS_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3223836529A4949B00A5A0F5 /* 004_BFS_1.cpp */; };
 		3223836829A49E3400A5A0F5 /* 005_BFS_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3223836729A49E3400A5A0F5 /* 005_BFS_2.cpp */; };
+		32ACB30B29A5F5DE00A78067 /* 006_DFS_Recur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB30A29A5F5DE00A78067 /* 006_DFS_Recur.cpp */; };
+		32ACB30D29A5F87E00A78067 /* 007_DFS_Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB30C29A5F87E00A78067 /* 007_DFS_Stack.cpp */; };
+		32ACB30F29A5FE7400A78067 /* 008_DFS_BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB30E29A5FE7400A78067 /* 008_DFS_BFS.cpp */; };
 		32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */; };
 		32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */; };
 		32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */; };
@@ -31,6 +34,9 @@
 		3223836329A48DD800A5A0F5 /* 003_BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 003_BFS.cpp; sourceTree = "<group>"; };
 		3223836529A4949B00A5A0F5 /* 004_BFS_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 004_BFS_1.cpp; sourceTree = "<group>"; };
 		3223836729A49E3400A5A0F5 /* 005_BFS_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 005_BFS_2.cpp; sourceTree = "<group>"; };
+		32ACB30A29A5F5DE00A78067 /* 006_DFS_Recur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 006_DFS_Recur.cpp; sourceTree = "<group>"; };
+		32ACB30C29A5F87E00A78067 /* 007_DFS_Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 007_DFS_Stack.cpp; sourceTree = "<group>"; };
+		32ACB30E29A5FE7400A78067 /* 008_DFS_BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 008_DFS_BFS.cpp; sourceTree = "<group>"; };
 		32FFA4A428FD1BC600CC3869 /* ForCodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForCodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 001_RomantoInteger.cpp; sourceTree = "<group>"; };
 		32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 002_LongestCommonPrefix.cpp; sourceTree = "<group>"; };
@@ -67,12 +73,15 @@
 		32FFA4A628FD1BC600CC3869 /* ForCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */,
 				32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */,
 				32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */,
-				32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */,
 				3223836329A48DD800A5A0F5 /* 003_BFS.cpp */,
 				3223836529A4949B00A5A0F5 /* 004_BFS_1.cpp */,
 				3223836729A49E3400A5A0F5 /* 005_BFS_2.cpp */,
+				32ACB30A29A5F5DE00A78067 /* 006_DFS_Recur.cpp */,
+				32ACB30C29A5F87E00A78067 /* 007_DFS_Stack.cpp */,
+				32ACB30E29A5FE7400A78067 /* 008_DFS_BFS.cpp */,
 			);
 			path = ForCodingTest;
 			sourceTree = "<group>";
@@ -134,9 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32ACB30F29A5FE7400A78067 /* 008_DFS_BFS.cpp in Sources */,
 				3223836629A4949B00A5A0F5 /* 004_BFS_1.cpp in Sources */,
 				32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */,
+				32ACB30D29A5F87E00A78067 /* 007_DFS_Stack.cpp in Sources */,
 				3223836429A48DD800A5A0F5 /* 003_BFS.cpp in Sources */,
+				32ACB30B29A5F5DE00A78067 /* 006_DFS_Recur.cpp in Sources */,
 				32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */,
 				3223836829A49E3400A5A0F5 /* 005_BFS_2.cpp in Sources */,
 				32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */,
