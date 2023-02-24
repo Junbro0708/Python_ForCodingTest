@@ -15,7 +15,9 @@
 		32ACB30F29A5FE7400A78067 /* 008_DFS_BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB30E29A5FE7400A78067 /* 008_DFS_BFS.cpp */; };
 		32ACB31129A7F3B500A78067 /* 009_DFS_Basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31029A7F3B500A78067 /* 009_DFS_Basic.cpp */; };
 		32ACB31329A85A9800A78067 /* 010_DP_Fibo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31229A85A9800A78067 /* 010_DP_Fibo.cpp */; };
-		32ACB31529A8975300A78067 /* 010_DP_Tiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31429A8975300A78067 /* 010_DP_Tiles.cpp */; };
+		32ACB31529A8975300A78067 /* 011_DP_Tiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31429A8975300A78067 /* 011_DP_Tiles.cpp */; };
+		32ACB31729A89A2300A78067 /* 012_DP_RGB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31629A89A2300A78067 /* 012_DP_RGB.cpp */; };
+		32ACB31929A8A13100A78067 /* 013_DP_INT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31829A8A13100A78067 /* 013_DP_INT.cpp */; };
 		32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */; };
 		32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */; };
 		32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */; };
@@ -42,7 +44,9 @@
 		32ACB30E29A5FE7400A78067 /* 008_DFS_BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 008_DFS_BFS.cpp; sourceTree = "<group>"; };
 		32ACB31029A7F3B500A78067 /* 009_DFS_Basic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 009_DFS_Basic.cpp; sourceTree = "<group>"; };
 		32ACB31229A85A9800A78067 /* 010_DP_Fibo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 010_DP_Fibo.cpp; sourceTree = "<group>"; };
-		32ACB31429A8975300A78067 /* 010_DP_Tiles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 010_DP_Tiles.cpp; sourceTree = "<group>"; };
+		32ACB31429A8975300A78067 /* 011_DP_Tiles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 011_DP_Tiles.cpp; sourceTree = "<group>"; };
+		32ACB31629A89A2300A78067 /* 012_DP_RGB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 012_DP_RGB.cpp; sourceTree = "<group>"; };
+		32ACB31829A8A13100A78067 /* 013_DP_INT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 013_DP_INT.cpp; sourceTree = "<group>"; };
 		32FFA4A428FD1BC600CC3869 /* ForCodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForCodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 001_RomantoInteger.cpp; sourceTree = "<group>"; };
 		32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 002_LongestCommonPrefix.cpp; sourceTree = "<group>"; };
@@ -90,7 +94,9 @@
 				32ACB30E29A5FE7400A78067 /* 008_DFS_BFS.cpp */,
 				32ACB31029A7F3B500A78067 /* 009_DFS_Basic.cpp */,
 				32ACB31229A85A9800A78067 /* 010_DP_Fibo.cpp */,
-				32ACB31429A8975300A78067 /* 010_DP_Tiles.cpp */,
+				32ACB31429A8975300A78067 /* 011_DP_Tiles.cpp */,
+				32ACB31629A89A2300A78067 /* 012_DP_RGB.cpp */,
+				32ACB31829A8A13100A78067 /* 013_DP_INT.cpp */,
 			);
 			path = ForCodingTest;
 			sourceTree = "<group>";
@@ -157,12 +163,14 @@
 				32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */,
 				32ACB30D29A5F87E00A78067 /* 007_DFS_Stack.cpp in Sources */,
 				3223836429A48DD800A5A0F5 /* 003_BFS.cpp in Sources */,
-				32ACB31529A8975300A78067 /* 010_DP_Tiles.cpp in Sources */,
+				32ACB31529A8975300A78067 /* 011_DP_Tiles.cpp in Sources */,
+				32ACB31729A89A2300A78067 /* 012_DP_RGB.cpp in Sources */,
 				32ACB30B29A5F5DE00A78067 /* 006_DFS_Recur.cpp in Sources */,
 				32ACB31129A7F3B500A78067 /* 009_DFS_Basic.cpp in Sources */,
 				32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */,
 				3223836829A49E3400A5A0F5 /* 005_BFS_2.cpp in Sources */,
 				32ACB31329A85A9800A78067 /* 010_DP_Fibo.cpp in Sources */,
+				32ACB31929A8A13100A78067 /* 013_DP_INT.cpp in Sources */,
 				32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
