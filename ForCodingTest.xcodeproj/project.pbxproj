@@ -21,6 +21,7 @@
 		32ACB31B29A94C0F00A78067 /* 014_DP_STAIR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31A29A94C0F00A78067 /* 014_DP_STAIR.cpp */; };
 		32ACB31D29A9606200A78067 /* 015_Greedy_ATM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31C29A9606200A78067 /* 015_Greedy_ATM.cpp */; };
 		32ACB31F29A9986100A78067 /* 016_Greedy_Coin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31E29A9986100A78067 /* 016_Greedy_Coin.cpp */; };
+		32ACB32129A9A6EB00A78067 /* 017_Trio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB32029A9A6EB00A78067 /* 017_Trio.cpp */; };
 		32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */; };
 		32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */; };
 		32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */; };
@@ -53,6 +54,7 @@
 		32ACB31A29A94C0F00A78067 /* 014_DP_STAIR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 014_DP_STAIR.cpp; sourceTree = "<group>"; };
 		32ACB31C29A9606200A78067 /* 015_Greedy_ATM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 015_Greedy_ATM.cpp; sourceTree = "<group>"; };
 		32ACB31E29A9986100A78067 /* 016_Greedy_Coin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 016_Greedy_Coin.cpp; sourceTree = "<group>"; };
+		32ACB32029A9A6EB00A78067 /* 017_Trio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 017_Trio.cpp; sourceTree = "<group>"; };
 		32FFA4A428FD1BC600CC3869 /* ForCodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForCodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 001_RomantoInteger.cpp; sourceTree = "<group>"; };
 		32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 002_LongestCommonPrefix.cpp; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				32ACB31A29A94C0F00A78067 /* 014_DP_STAIR.cpp */,
 				32ACB31C29A9606200A78067 /* 015_Greedy_ATM.cpp */,
 				32ACB31E29A9986100A78067 /* 016_Greedy_Coin.cpp */,
+				32ACB32029A9A6EB00A78067 /* 017_Trio.cpp */,
 			);
 			path = ForCodingTest;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32ACB32129A9A6EB00A78067 /* 017_Trio.cpp in Sources */,
 				32ACB30F29A5FE7400A78067 /* 008_DFS_BFS.cpp in Sources */,
 				32ACB31B29A94C0F00A78067 /* 014_DP_STAIR.cpp in Sources */,
 				3223836629A4949B00A5A0F5 /* 004_BFS_1.cpp in Sources */,
