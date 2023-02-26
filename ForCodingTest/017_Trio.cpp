@@ -1,15 +1,15 @@
+////
+////  017_Trio.cpp
+////  ForCodingTest
+////
+////  Created by MAS on 2023-02-24.
+////
 //
-//  017_Trio.cpp
-//  ForCodingTest
+//#include <iostream>
+//#include <vector>
 //
-//  Created by MAS on 2023-02-24.
+//using namespace std;
 //
-
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
-int main(){
-    
-}
+//int main(){
+//    
+//}

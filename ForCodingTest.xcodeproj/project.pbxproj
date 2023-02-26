@@ -22,6 +22,9 @@
 		32ACB31D29A9606200A78067 /* 015_Greedy_ATM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31C29A9606200A78067 /* 015_Greedy_ATM.cpp */; };
 		32ACB31F29A9986100A78067 /* 016_Greedy_Coin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB31E29A9986100A78067 /* 016_Greedy_Coin.cpp */; };
 		32ACB32129A9A6EB00A78067 /* 017_Trio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB32029A9A6EB00A78067 /* 017_Trio.cpp */; };
+		32ACB32329A9B5AD00A78067 /* 018_Letter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB32229A9B5AD00A78067 /* 018_Letter.cpp */; };
+		32ACB32529A9EC6300A78067 /* 019_Backtracking_NM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB32429A9EC6300A78067 /* 019_Backtracking_NM.cpp */; };
+		32ACB32729A9F00E00A78067 /* 020_Backtracking_NM2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACB32629A9F00E00A78067 /* 020_Backtracking_NM2.cpp */; };
 		32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */; };
 		32FFA4B728FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */; };
 		32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FFA4B828FD2C8400CC3869 /* 000_Init.cpp */; };
@@ -55,6 +58,9 @@
 		32ACB31C29A9606200A78067 /* 015_Greedy_ATM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 015_Greedy_ATM.cpp; sourceTree = "<group>"; };
 		32ACB31E29A9986100A78067 /* 016_Greedy_Coin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 016_Greedy_Coin.cpp; sourceTree = "<group>"; };
 		32ACB32029A9A6EB00A78067 /* 017_Trio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 017_Trio.cpp; sourceTree = "<group>"; };
+		32ACB32229A9B5AD00A78067 /* 018_Letter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 018_Letter.cpp; sourceTree = "<group>"; };
+		32ACB32429A9EC6300A78067 /* 019_Backtracking_NM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 019_Backtracking_NM.cpp; sourceTree = "<group>"; };
+		32ACB32629A9F00E00A78067 /* 020_Backtracking_NM2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 020_Backtracking_NM2.cpp; sourceTree = "<group>"; };
 		32FFA4A428FD1BC600CC3869 /* ForCodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ForCodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFA4B428FD1DE600CC3869 /* 001_RomantoInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 001_RomantoInteger.cpp; sourceTree = "<group>"; };
 		32FFA4B628FD2C4900CC3869 /* 002_LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 002_LongestCommonPrefix.cpp; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				32ACB31C29A9606200A78067 /* 015_Greedy_ATM.cpp */,
 				32ACB31E29A9986100A78067 /* 016_Greedy_Coin.cpp */,
 				32ACB32029A9A6EB00A78067 /* 017_Trio.cpp */,
+				32ACB32229A9B5AD00A78067 /* 018_Letter.cpp */,
+				32ACB32429A9EC6300A78067 /* 019_Backtracking_NM.cpp */,
+				32ACB32629A9F00E00A78067 /* 020_Backtracking_NM2.cpp */,
 			);
 			path = ForCodingTest;
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 				3223836629A4949B00A5A0F5 /* 004_BFS_1.cpp in Sources */,
 				32FFA4B928FD2C8400CC3869 /* 000_Init.cpp in Sources */,
 				32ACB30D29A5F87E00A78067 /* 007_DFS_Stack.cpp in Sources */,
+				32ACB32329A9B5AD00A78067 /* 018_Letter.cpp in Sources */,
 				32ACB31F29A9986100A78067 /* 016_Greedy_Coin.cpp in Sources */,
 				3223836429A48DD800A5A0F5 /* 003_BFS.cpp in Sources */,
 				32ACB31529A8975300A78067 /* 011_DP_Tiles.cpp in Sources */,
@@ -187,7 +197,9 @@
 				3223836829A49E3400A5A0F5 /* 005_BFS_2.cpp in Sources */,
 				32ACB31329A85A9800A78067 /* 010_DP_Fibo.cpp in Sources */,
 				32ACB31929A8A13100A78067 /* 013_DP_INT.cpp in Sources */,
+				32ACB32729A9F00E00A78067 /* 020_Backtracking_NM2.cpp in Sources */,
 				32FFA4B528FD1DE600CC3869 /* 001_RomantoInteger.cpp in Sources */,
+				32ACB32529A9EC6300A78067 /* 019_Backtracking_NM.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
