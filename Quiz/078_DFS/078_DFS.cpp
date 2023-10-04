@@ -22,6 +22,20 @@ void dfs(int x){
   }
 }
 
+void dfs1(int x){
+  if(x == N){
+    cnt++;
+  }else{
+    for(int i = 1; i <= N; ++i){
+      if(arr[x][i] == 1 && check[i] == false){
+        check[i] = true;
+        dfs(i);
+        check[i] = false;
+      }
+    }
+  }
+}
+
 int main(){
   cin >> N >> M;
 
